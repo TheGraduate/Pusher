@@ -55,4 +55,5 @@ fun main() {
     FirebaseMessaging.getInstance().send(messageLike)
     FirebaseMessaging.getInstance().send(messageShare)
     FirebaseMessaging.getInstance().send(messageNewPost)
+    FirebaseMessaging.getInstance().send(messageShare)
 }
